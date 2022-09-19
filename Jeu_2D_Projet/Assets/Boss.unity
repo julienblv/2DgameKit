@@ -372,7 +372,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.371
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2679,7 +2679,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.254
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9046,7 +9046,7 @@ MonoBehaviour:
   bossDeathClip: {fileID: 8300000, guid: a5c71d82307ccf942892b3c4e022cfe5, type: 3}
   playerDeathClip: {fileID: 8300000, guid: 31b2284e8ab3f244182080ca7da474b7, type: 3}
   postBossClip: {fileID: 8300000, guid: 0651b56880a11ef45909b779443691aa, type: 3}
-  bossMusic: {fileID: 8300000, guid: f7d80757580ebf14287ba18254f7fe3d, type: 3}
+  bossMusic: {fileID: 8300000, guid: 84362148ee10d514a9e84ce26052910b, type: 3}
   stepAudioPlayer: {fileID: 2021014452}
   laserFireAudioPlayer: {fileID: 181406571}
   grenadeThrowAudioPlayer: {fileID: 9723099}
@@ -11924,7 +11924,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.236
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12722,7 +12722,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.267
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12944,6 +12944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114009576591649292, guid: 75c2b6a66ee2dfe4b9f818176a33f456,
+        type: 3}
+      propertyPath: isMovingAtStart
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114009576591649292, guid: 75c2b6a66ee2dfe4b9f818176a33f456,
         type: 3}
@@ -16497,6 +16502,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 82794744864509420, guid: 4ba44c764bf20fc4c88a7a42dca61256,
         type: 3}
+      propertyPath: m_Volume
+      value: 0.275
+      objectReference: {fileID: 0}
+    - target: {fileID: 82794744864509420, guid: 4ba44c764bf20fc4c88a7a42dca61256,
+        type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: 243686457154912612, guid: 74cb2eead3628fa47a369c51a45d99a1,
@@ -16871,6 +16881,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114738439059648026, guid: 9c48d4101c920ef47a787da13f097d90,
+        type: 3}
+      propertyPath: musicVolume
+      value: 0.503
+      objectReference: {fileID: 0}
+    - target: {fileID: 114738439059648026, guid: 9c48d4101c920ef47a787da13f097d90,
+        type: 3}
+      propertyPath: ambientVolume
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 114738439059648026, guid: 9c48d4101c920ef47a787da13f097d90,
+        type: 3}
+      propertyPath: musicAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fc01e54707b919a4892f0443b275b7b0, type: 3}
+    - target: {fileID: 114738439059648026, guid: 9c48d4101c920ef47a787da13f097d90,
+        type: 3}
+      propertyPath: ambientAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 37e0472a782ce3d4eb81ac92760309ff, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c48d4101c920ef47a787da13f097d90, type: 3}
 --- !u!114 &1203396992 stripped
@@ -44632,7 +44662,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.417
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -49413,7 +49443,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.132
   m_Pitch: 1
   Loop: 0
   Mute: 0
