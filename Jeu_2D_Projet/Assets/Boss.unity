@@ -45591,7 +45591,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2079486568}
         m_TargetAssemblyTypeName: Gamekit2D.DialogueCanvasController, Assembly-CSharp
-        m_MethodName: ActivateCanvasWithTranslatedText
+        m_MethodName: ActivateCanvasWithText
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
