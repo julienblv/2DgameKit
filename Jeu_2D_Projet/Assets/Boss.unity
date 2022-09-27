@@ -880,7 +880,7 @@ GameObject:
   - component: {fileID: 48688569}
   - component: {fileID: 48688571}
   - component: {fileID: 48688570}
-  m_Layer: 18
+  m_Layer: 9
   m_Name: DamageZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9002,16 +9002,14 @@ MonoBehaviour:
     bossHP: 4
     shieldHP: 20
   - platformSpeed: 2
-    platforms:
-    - {fileID: 0}
+    platforms: []
     enableOnProgress:
     - {fileID: 1653340866}
     - {fileID: 1753888752}
     bossHP: 4
     shieldHP: 30
   - platformSpeed: 3
-    platforms:
-    - {fileID: 0}
+    platforms: []
     enableOnProgress:
     - {fileID: 1255854319}
     bossHP: 4
@@ -15654,11 +15652,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.59
+      value: 201.19
       objectReference: {fileID: 0}
     - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.18
+      value: 11.13
       objectReference: {fileID: 0}
     - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15765,6 +15763,16 @@ PrefabInstance:
         type: 3}
       propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ChangeHitPointUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 114854669915511232, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114854669915511232, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: shotsPerSecond
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114854669915511232, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
@@ -18552,8 +18560,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360369284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: 20.6, z: 0}
-  m_LocalScale: {x: 0.35799512, y: 0.051771976, z: 0.54037}
+  m_LocalPosition: {x: 1.59, y: -0.12, z: 0}
+  m_LocalScale: {x: 0.45293543, y: 0.91979, z: 0.6836761}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701924873}
